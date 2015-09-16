@@ -18,18 +18,6 @@ class Address
 			address += ", #{city}, #{state}, #{postal_code}"
 		
 		end
-		address
+#		address
 	end
 end
-
-home = Address.new
-home.kind = "Home"
-home.street_1 = "1223"
-home.city = "Por"
-home.state = "OR"
-home.postal_code = "12312312"
-
-puts home.to_s('short')
-puts "\n"
-puts home.to_s('long')
-
