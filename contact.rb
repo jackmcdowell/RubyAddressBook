@@ -94,12 +94,11 @@ end
 	end
 end
 
-jack = Contact.new
-jack.first_name = "Jack"
-jack.last_name = "McDowell"
-jack.add_phone_number("Home","646-642-XXXX")
-jack.add_address("Home", "123 Home St.", "", "Portland", "OR", "12345")
-
-puts jack.to_s('full_name')
-jack.print_phone_numbers
-jack.print_addresses
+#jack = Contact.new
+#jack.first_name = "Jack"
+#jack.last_name = "McDowell"
+#jack.add_phone_number("Home","646-642-XXXX")
+#jack.add_address("Home", "123 Home St.", "", "Portland", "OR", "12345")
+#puts jack.to_s('full_name')
+#jack.print_phone_numbers
+#jack.print_addresses
