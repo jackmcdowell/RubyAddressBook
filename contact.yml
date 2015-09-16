@@ -1,0 +1,14 @@
+---
+- !ruby/object:Contact
+  phone_numbers: []
+  addresses:
+  - !ruby/object:Address
+    kind: Home
+    street_1: 123 Mulberry Ln.
+    street_2: 
+    city: Portland
+    state: OR
+    postal_code: 97203
+  first_name: Jack
+  middle_name: 
+  last_name: McDowell
